@@ -10,4 +10,8 @@ import UIKit
 
 class NetflixCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var backgroundImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var popularityLabel: UILabel!
+    
 }

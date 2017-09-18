@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct Character {
+    let name: String
+    let lastName: String
+    let image: String
+    let role: String
+}
